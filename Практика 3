@@ -28,11 +28,11 @@ while i <= n:
         print(i)
     i += 1
 #Задание 4
-a = str(input("Введите текст:"))
-def find_message(a):
+tx = str(input("Введите текст:"))
+def find_message(tx):
     result = ""
-    for ch in a:
+    for ch in tx:
         if ch.isupper() == True:
             result += ch
     print(result)
-find_message(a)
+find_message(tx)
